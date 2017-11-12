@@ -12,6 +12,10 @@
 		89380C7B1F727FC10046D37F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89380C791F727FC10046D37F /* Main.storyboard */; };
 		89380C7D1F727FC10046D37F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89380C7C1F727FC10046D37F /* Assets.xcassets */; };
 		89380C801F727FC10046D37F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89380C7E1F727FC10046D37F /* LaunchScreen.storyboard */; };
+		89380C881F728A070046D37F /* MercuryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89380C871F728A070046D37F /* MercuryController.swift */; };
+		89380C8A1F7290D80046D37F /* VenusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89380C891F7290D80046D37F /* VenusController.swift */; };
+		89380C8C1F72ED0A0046D37F /* EarthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89380C8B1F72ED0A0046D37F /* EarthController.swift */; };
+		89380C8E1F72F33D0046D37F /* MarsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89380C8D1F72F33D0046D37F /* MarsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		89380C7C1F727FC10046D37F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89380C7F1F727FC10046D37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89380C811F727FC10046D37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89380C871F728A070046D37F /* MercuryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercuryController.swift; sourceTree = "<group>"; };
+		89380C891F7290D80046D37F /* VenusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusController.swift; sourceTree = "<group>"; };
+		89380C8B1F72ED0A0046D37F /* EarthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthController.swift; sourceTree = "<group>"; };
+		89380C8D1F72F33D0046D37F /* MarsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				89380C751F727FC10046D37F /* AppDelegate.swift */,
+				89380C8B1F72ED0A0046D37F /* EarthController.swift */,
+				89380C8D1F72F33D0046D37F /* MarsController.swift */,
+				89380C871F728A070046D37F /* MercuryController.swift */,
+				89380C891F7290D80046D37F /* VenusController.swift */,
 				89380C771F727FC10046D37F /* ViewController.swift */,
 				89380C791F727FC10046D37F /* Main.storyboard */,
 				89380C7C1F727FC10046D37F /* Assets.xcassets */,
@@ -137,7 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89380C781F727FC10046D37F /* ViewController.swift in Sources */,
+				89380C8A1F7290D80046D37F /* VenusController.swift in Sources */,
+				89380C8E1F72F33D0046D37F /* MarsController.swift in Sources */,
 				89380C761F727FC10046D37F /* AppDelegate.swift in Sources */,
+				89380C8C1F72ED0A0046D37F /* EarthController.swift in Sources */,
+				89380C881F728A070046D37F /* MercuryController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
